@@ -1,0 +1,18 @@
+1. class Test {
+2. public static void main(String args[]) {
+3. int num1 = 10, num2 = 20, result;
+4. result = calc(num1, num2);
+5. System.out.println(result);
+6. }
+7.
+8. // insert code here
+9. }
+<eamonn>
+Which, inserted at line 8, produces the output 30?
+<eamonn>
+static int calc(int n1, int n2) { return; }
+public int calc(int n1, int n2) { return n1 + n2; }
+public int calc(int n1, int n2) { return; }
+static int calc(int n1, int n2) { return n1 + n2; }
+<eamonn>
+3

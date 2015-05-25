@@ -1,0 +1,17 @@
+1. public abstract class Wow {
+2. private int wow;
+3. public Wow(int wow) {
+4. this.wow = wow;
+5. }
+6. public void wow() { }
+7. private void wowza() { }
+8. }
+<eamonn>
+Which is true about the class Wow?
+<eamonn>
+It does NOT compile because an abstract class must have at least one abstract method.
+It does NOT compile because an abstract class CANNOT have instance variables.
+It compiles without error.
+It does NOT compile because an abstract class CANNOT have private methods.
+<eamonn>
+2
